@@ -1,0 +1,28 @@
+.task1 {
+  display: none;
+  flex-direction: row;
+}
+
+.textList {
+  width: 800px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.task2 {
+  display: none;
+  flex-direction: row;
+}
+
+.draw {
+  width: 800px;
+  height: 400px;
+  position: relative;
+}
+
+.highlighted {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}

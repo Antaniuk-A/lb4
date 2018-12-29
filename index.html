@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <button id="actTask1">1</button>
+    <button id="actTask2">2</button>
+  </header>
+
+  <div class="task1" id="task1">
+    <div class="textList" id="list"></div>
+    <form class="settings" id="settings">
+      <label><input name="choose" type="radio" id="positionStart" checked="true">Start</label>
+      <label><input name="choose" type="radio" id="positionEnd">End</label>
+      <input type="text" id="text" value="text">
+      <input type="text" id="textColor" value="red">
+      <input type="submit" value="Add">
+      <button id="stats">Stat</button>
+    </form>
+  </div>
+
+  <div class="task2" id="task">
+    <div class="draw" id="draw"></div>
+    <button class="addRect" id="addRect">Add rect</button>
+  </div>
+
+  <script src="script/index.js"></script>
+</body>
+</html>
